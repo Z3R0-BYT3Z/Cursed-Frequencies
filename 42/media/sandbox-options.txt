@@ -1,0 +1,30 @@
+VERSION = 1,
+
+option LostFrequencies.Enabled { type = boolean, default = true, page = LostFrequencies, translation = LostFrequencies_Enabled, }
+option LostFrequencies.Frequency { type = integer, min = 88000, max = 108000, default = 102800, page = LostFrequencies, translation = LostFrequencies_Frequency, }
+option LostFrequencies.UtcOffset { type = integer, min = -12, max = 14, default = -4, page = LostFrequencies, translation = LostFrequencies_UtcOffset, }
+option LostFrequencies.ActivationHour { type = integer, min = 0, max = 23, default = 6, page = LostFrequencies, translation = LostFrequencies_ActivationHour, }
+option LostFrequencies.ReminderHour { type = integer, min = 0, max = 23, default = 18, page = LostFrequencies, translation = LostFrequencies_ReminderHour, }
+option LostFrequencies.InterfaceKey { type = integer, min = 0, max = 255, default = 66, page = LostFrequencies, translation = LostFrequencies_InterfaceKey, }
+option LostFrequencies.MinimumDurationDays { type = integer, min = 1, max = 3, default = 1, page = LostFrequencies, translation = LostFrequencies_MinimumDurationDays, }
+option LostFrequencies.MaximumDurationDays { type = integer, min = 1, max = 3, default = 3, page = LostFrequencies, translation = LostFrequencies_MaximumDurationDays, }
+option LostFrequencies.LoginGraceMinutes { type = integer, min = 0, max = 60, default = 5, page = LostFrequencies, translation = LostFrequencies_LoginGraceMinutes, }
+option LostFrequencies.RandomIntensity { type = boolean, default = true, page = LostFrequencies, translation = LostFrequencies_RandomIntensity, }
+option LostFrequencies.AdminExempt { type = boolean, default = false, page = LostFrequencies, translation = LostFrequencies_AdminExempt, }
+option LostFrequencies.ShowGlobalAlert { type = boolean, default = true, page = LostFrequencies, translation = LostFrequencies_ShowGlobalAlert, }
+option LostFrequencies.ShowOverheadAlerts { type = boolean, default = false, page = LostFrequencies, translation = LostFrequencies_ShowOverheadAlerts, }
+option LostFrequencies.RadioBroadcasts { type = boolean, default = true, page = LostFrequencies, translation = LostFrequencies_RadioBroadcasts, }
+option LostFrequencies.RelayLogging { type = boolean, default = true, page = LostFrequencies, translation = LostFrequencies_RelayLogging, }
+option LostFrequencies.AvoidImmediateRepeats { type = boolean, default = true, page = LostFrequencies, translation = LostFrequencies_AvoidImmediateRepeats, }
+option LostFrequencies.EnvironmentalSignals { type = boolean, default = true, page = LostFrequencies, translation = LostFrequencies_EnvironmentalSignals, }
+option LostFrequencies.WeatherRefreshMinutes { type = integer, min = 15, max = 180, default = 60, page = LostFrequencies, translation = LostFrequencies_WeatherRefreshMinutes, }
+option LostFrequencies.BlackSkyEnabled { type = boolean, default = true, page = LostFrequencies, translation = LostFrequencies_BlackSkyEnabled, }
+option LostFrequencies.TropicalStaticEnabled { type = boolean, default = true, page = LostFrequencies, translation = LostFrequencies_TropicalStaticEnabled, }
+option LostFrequencies.WhiteoutEnabled { type = boolean, default = true, page = LostFrequencies, translation = LostFrequencies_WhiteoutEnabled, }
+option LostFrequencies.DeadAirEnabled { type = boolean, default = true, page = LostFrequencies, translation = LostFrequencies_DeadAirEnabled, }
+option LostFrequencies.HungerEnabled { type = boolean, default = true, page = LostFrequencies, translation = LostFrequencies_HungerEnabled, }
+option LostFrequencies.ThirstEnabled { type = boolean, default = true, page = LostFrequencies, translation = LostFrequencies_ThirstEnabled, }
+option LostFrequencies.FatigueEnabled { type = boolean, default = true, page = LostFrequencies, translation = LostFrequencies_FatigueEnabled, }
+option LostFrequencies.EnduranceEnabled { type = boolean, default = true, page = LostFrequencies, translation = LostFrequencies_EnduranceEnabled, }
+option LostFrequencies.PanicEnabled { type = boolean, default = true, page = LostFrequencies, translation = LostFrequencies_PanicEnabled, }
+option LostFrequencies.PainEnabled { type = boolean, default = true, page = LostFrequencies, translation = LostFrequencies_PainEnabled, }
