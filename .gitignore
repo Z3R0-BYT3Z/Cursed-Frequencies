@@ -1,0 +1,10 @@
+# Local Workshop uploader state and generated packages
+*.vdf
+*.zip
+preview*.png
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
