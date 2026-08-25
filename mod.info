@@ -1,0 +1,6 @@
+name=Cursed Frequencies
+id=CursedFrequencies
+description=A persistent Daily Curse radio event system with optional Radio Frequencies and Survivor League integration.
+author=Z3R0X92
+version=0.5.3
+versionMin=42.0
